@@ -12,6 +12,9 @@
     color: #FD6E0A;
 }
 
+.text-center{
+    text-align: center;
+}
 .dark-1{
     color:#474747;
 }
@@ -185,4 +188,54 @@ nav > ul > li > a{
     font-weight: 400px;
     font-size: 16px;
     text-align: justify;
+}
+
+/* skill section end here */
+
+
+/* resume style start here */
+
+.my-resume-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top:130px;
+}
+
+.edu > h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.exp > h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.eduAndExp-container{
+    display: flex;
+    gap: 30px;
+}
+
+.eduAndExp-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 30px 0px 20px 0px;
+}
+.eduAndExp-sec-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600px;
+    margin: 0px;
+}
+
+.eduAndExp-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400px;
+    padding-bottom: 20px;
+}
+
+.edu-div hr{
+    margin-bottom: 20px;
 }
